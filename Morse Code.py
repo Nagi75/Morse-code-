@@ -28,10 +28,10 @@ def decode_from_morse(morse: str) -> str:
 
 
 def greet():
-    print("👋 Hey there! Welcome to the Morse Code Buddy.\n")
+    print(" Hey there! Welcome to the Morse Code Buddy.\n")
     time.sleep(1)
     print("You can *encode* your messages into Morse Code, or *decode* them back into English.")
-    print("Let’s keep your secrets safe... or just nerd out a bit. 😄\n")
+    print("Let’s keep your secrets safe... or just nerd out a bit. \n")
 
 
 def main():
@@ -54,10 +54,10 @@ def main():
             print("\n🔍 Here's what it says:")
             print(text)
         elif choice == '3':
-            print("\n👋 Catch you later! Keep buzzing like Morse.")
+            print("\n Catch you later! Keep buzzing like Morse.")
             break
         else:
-            print("🤔 Hmm, that’s not a valid option. Try again.")
+            print(" Hmm, that’s not a valid option. Try again.")
 
         time.sleep(1.2)
 
