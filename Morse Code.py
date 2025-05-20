@@ -1,6 +1,5 @@
 import time
 
-# Morse Code Dictionary
 MORSE_CODE_DICT = {
     'A': '.-',    'B': '-...',  'C': '-.-.',
     'D': '-..',   'E': '.',     'F': '..-.',
@@ -17,7 +16,6 @@ MORSE_CODE_DICT = {
     '0': '-----', ' ': '/'
 }
 
-# Invert the dictionary for decoding
 INVERSE_MORSE_DICT = {v: k for k, v in MORSE_CODE_DICT.items()}
 
 
